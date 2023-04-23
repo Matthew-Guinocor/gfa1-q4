@@ -1,0 +1,75 @@
+/* Font Family used: Gotham*/
+@font-face{
+    font-family: Gotham-B;
+    src: url("Gotham-Bold.otf") format("opentype");
+}
+@font-face{
+    font-family: Gotham-M;
+    src: url("GothamMedium.ttf") format("truetype");
+}
+@font-face{
+    font-family: Gotham-L;
+    src: url("Gotham-Light.otf") format("opentype");
+}
+
+/* General */
+body{
+    background-color: rgba(57, 160, 165, 0.75);
+    margin-top: 2.5%;
+}
+
+h1, p{
+    color: #FFFFFF;
+    font-family: Gotham-B;
+}
+
+label{
+    font-family: Gotham-M;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+input, option{
+    margin-left: 2.5%;
+    font-family: Gotham-L;
+}
+
+/* Header + Main */
+header {
+    background-color: #388387;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+main {
+    margin-top: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #3b9ea4;
+    padding: 10px;
+}
+
+li{
+    font-family: Gotham-L;
+    margin-right: 5%;
+    margin-top: 2.55%;
+}
+
+/* Submit + Reset Designing */
+#submit{
+   margin-left: 30%;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: #2a7074;
+    font-family: Gotham-M;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+}
+  
+  
